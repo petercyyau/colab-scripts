@@ -1,0 +1,3 @@
+!zip -r /content/[filename].zip /content/[targe_folder]
+  from google.colab import files
+files.download("/content/[filename].zip")
